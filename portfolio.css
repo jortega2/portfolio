@@ -1,11 +1,11 @@
 body {
-  padding: 0 200px;
+  padding: 50px 100px;
 }
 
 header {
   display: flex;
   height: 500px;
-  padding: 50px;
+  margin-bottom: 100px;
 }
 img.headerImg {
   
@@ -21,6 +21,8 @@ img.headerImg {
 .aboutMe{
   flex-grow: 1;
   font-size:x-large;
+
+  overflow:auto
 }
 
 .linkContainer {
@@ -37,3 +39,21 @@ img.icon{
   height: 35px;
 }
 
+main {
+  display: grid;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.projectHeader {
+  display: flex;
+  align-items: center;
+}
+
+.projectHeader>h2{
+  flex-grow: 1;
+}
