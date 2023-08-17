@@ -1,0 +1,39 @@
+body {
+  padding: 0 200px;
+}
+
+header {
+  display: flex;
+  height: 500px;
+  padding: 50px;
+}
+img.headerImg {
+  
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 40px 40px 0px;
+  padding: 20px 40px 20px 40px;
+}
+
+.aboutMe{
+  flex-grow: 1;
+  font-size:x-large;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.shadow {
+  box-shadow: 0 0 10px black;
+}
+
+img.icon{
+  height: 35px;
+}
+
