@@ -4,11 +4,8 @@ body {
 
 header {
   display: flex;
-  height: 500px;
+  height: 400px;
   margin-bottom: 100px;
-}
-img.headerImg {
-  
 }
 
 .headerInfo {
@@ -18,35 +15,63 @@ img.headerImg {
   padding: 20px 40px 20px 40px;
 }
 
+.headerInfo > h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 .aboutMe{
   flex-grow: 1;
   font-size:x-large;
 
-  overflow:auto
+  overflow:auto;
+  margin-top: 0;
+  margin-bottom: 20;
 }
 
 .linkContainer {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 5px;
 }
 
 .shadow {
-  box-shadow: 0 0 10px black;
+  box-shadow: 2px 2px 10px black;
 }
 
 img.icon{
-  height: 35px;
+  height: 30px;
 }
 
-main {
+.projectContainer {
   display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  grid-template-rows: 490px;
+  grid-auto-rows: 490px;
+}
+
+img.projectImg {
+  height: 60%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .projectCard {
   display: flex;
   flex-direction: column;
-  
+  border-radius: 5px;
+}
+
+.projectInfo {
+  display :flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.projectInfo > p {
+  margin: 0;
 }
 
 .projectHeader {
@@ -56,4 +81,5 @@ main {
 
 .projectHeader>h2{
   flex-grow: 1;
+  margin: 0px;
 }
