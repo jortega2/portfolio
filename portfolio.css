@@ -1,22 +1,53 @@
 body {
-  padding: 50px 100px;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #00162b;
 }
 
 header {
   display: flex;
   height: 400px;
-  margin-bottom: 100px;
+  margin: 50px 0px;
 }
 
 footer {
   display: flex;
-  gap: 40px;
-  height: 300px;
-  background-color: gray;
-  color: white;
+  justify-content: space-around;
+
+  height: 400px;
+  
   padding: 30px;
+  margin-bottom: 70px;
+}
+
+/* img.footerBackground{
+  position: absolute;
+  z-index: -1;
+  left: 0;
+
+  width: 100vw;
+  max-width: 100%;
+  height: 530px;
+} */
+
+main {
+  margin-bottom: 100px;
+}
+
+img.mainBackground{
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 200px;
+
+  height: auto;
+  width: 100vw;
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .headerInfo {
@@ -24,16 +55,12 @@ footer {
   flex-direction: column;
   margin: 40px 40px 40px 0px;
   padding: 20px 40px 20px 40px;
-}
-
-.headerInfo > h1 {
-  margin-top: 0;
-  margin-bottom: 20px;
+  background-color: white;
 }
 
 .aboutMe{
   flex-grow: 1;
-  font-size:x-large;
+  font-size:larger;
 
   overflow:auto;
   margin-top: 0;
@@ -47,7 +74,7 @@ footer {
 }
 
 .shadow {
-  box-shadow: 2px 2px 10px black;
+  box-shadow: 0px 0px 10px #69fffe;
 }
 
 img.icon{
@@ -64,7 +91,6 @@ img.icon:hover{
   grid-template-columns:  1fr 1fr 1fr;
   grid-template-rows: 340px;
   grid-auto-rows: 340px;
-  margin-bottom: 100px;
 }
 
 img.projectImg {
@@ -77,6 +103,7 @@ img.projectImg {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+  background-color: white;
 }
 
 .projectInfo {
@@ -103,6 +130,11 @@ img.projectImg {
 .footerInfo {
   display: flex;
   flex-direction: column;
+  font-size: larger;
+
+  background-color: white;
+  flex: 1;
+  padding: 40px;
 }
 
 .footerInfo > h1 {
@@ -119,6 +151,6 @@ img.projectImg {
   gap: 5px;
 }
 
-.footerImg {
+img.footerImg {
   height: auto;
 }
