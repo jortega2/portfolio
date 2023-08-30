@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #00162b;
+  background-image: url(imgs/modern.jpg);
+  background-position: center;
 }
 
 header {
@@ -16,19 +22,8 @@ footer {
 
   height: 400px;
   
-  padding: 30px;
   margin-bottom: 70px;
 }
-
-/* img.footerBackground{
-  position: absolute;
-  z-index: -1;
-  left: 0;
-
-  width: 100vw;
-  max-width: 100%;
-  height: 530px;
-} */
 
 main {
   margin-bottom: 100px;
@@ -38,9 +33,9 @@ img.mainBackground{
   position: absolute;
   z-index: -1;
   left: 0;
-  top: 200px;
+  top: 0;
 
-  height: auto;
+  max-height: 100vh;
   width: 100vw;
   max-width: 100%;
 }
@@ -53,8 +48,8 @@ h1 {
 .headerInfo {
   display: flex;
   flex-direction: column;
-  margin: 40px 40px 40px 0px;
-  padding: 20px 40px 20px 40px;
+  margin: 30px 0px;
+  padding: 20px 40px;
   background-color: white;
 }
 
@@ -74,7 +69,7 @@ h1 {
 }
 
 .shadow {
-  box-shadow: 0px 0px 10px #69fffe;
+  box-shadow: 0px 0px 10px white;
 }
 
 img.icon{
@@ -134,7 +129,9 @@ img.projectImg {
 
   background-color: white;
   flex: 1;
-  padding: 40px;
+  padding: 20px 40px;
+  margin: 30px 0px;
+  gap: 12px;
 }
 
 .footerInfo > h1 {
@@ -153,4 +150,8 @@ img.projectImg {
 
 img.footerImg {
   height: auto;
+}
+
+.footerMessage, .homeAddress, .phoneNumber, .emailAddress {
+  margin: 0;
 }
