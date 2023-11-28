@@ -72,10 +72,6 @@ h1 {
   gap: 5px;
 }
 
-.cardLinks {
-
-}
-
 .footerLinks {
   justify-content: flex-start;
   display: flex;
@@ -131,17 +127,40 @@ img.cardImg {
 .cardLinks {
   display: flex;
   justify-content: space-between;
-  gap: 5px;
+  gap: 10px;
 }
 
 .cardAction {
   flex-grow: 1;
   border-width: 1px;
   border-radius: 15px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.invert {
+  background-color: black;
+  outline-color: white;
+  color: white;
+}
+
+.cardAction.invert > .icon.onhover{
+  display:inline;
+}
+
+.cardAction.invert > .icon.nohover, .icon.onhover{
+  display: none;
 }
 
 .cardAction:hover{
   cursor: pointer;
+}
+
+.cardTech {
+  text-align: center;
 }
 
 .footerInfo {
