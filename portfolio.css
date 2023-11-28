@@ -106,10 +106,6 @@ img.icon{
   height: 475px;
 }
 
-.projectTech {
-  text-align: center;
-}
-
 img.cardImg {
   height: 60%;
   max-width: 100%;
@@ -141,18 +137,14 @@ img.cardImg {
   gap: 10px;
 }
 
+.cardAction:hover {
+  
+}
+
 .invert {
   background-color: black;
   outline-color: white;
   color: white;
-}
-
-.cardAction.invert > .icon.onhover{
-  display:inline;
-}
-
-.cardAction.invert > .icon.nohover, .icon.onhover{
-  display: none;
 }
 
 .cardAction:hover{
