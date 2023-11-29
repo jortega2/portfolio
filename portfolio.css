@@ -5,9 +5,10 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #00162b;
+  background-color: #000000;
   background-image: url(imgs/modern.jpg);
-  background-position: center;
+  background-size: cover;
+  background-position: center center;
 }
 
 header {
