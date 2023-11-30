@@ -17,6 +17,11 @@ header {
   margin: 50px 0px;
 }
 
+.headerImg {
+  height: 400px;
+  width: 533px;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -87,6 +92,12 @@ img.icon{
   height: 30px;
 }
 
+.iconLink{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .cardContainer {
   display: grid;
   grid-gap: 40px;
@@ -131,6 +142,7 @@ img.cardImg {
 .btnContainer {
   flex-grow: 1;
   display: flex;
+  text-decoration: none;
 }
 
 .cardAction {
@@ -143,11 +155,29 @@ img.cardImg {
   justify-content: center;
   gap: 10px;
 }
+.hover, .cardAction:hover>.default{
+  display: none;
+}
+
+.cardAction:hover>.hover{
+  display: inline-block;
+}
+
+.cardAction:hover{
+  background-color: black;
+  color: white;
+  outline-color: white;
+}
 
 .invert {
   background-color: black;
   outline-color: white;
   color: white;
+}
+
+.invert:hover{
+  background-color: white;
+  color: black;
 }
 
 .cardAction:hover{
