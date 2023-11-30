@@ -17,7 +17,11 @@
         <h1>A bit about me</h1>
         <p class="aboutMe">
           Hey there! Thanks for taking the time to visit my portfolio. <br>
-          I am Juvenal Ortega. I graduated with a Bachelor of Science in Computer Science from the University of California, Riverside with a 3.8 GPA. While I was there, I learned a ton about programming and developed a knack for problem solving. I also worked on many projects with tons of different tools and technologies. I am most familiar with C++, JavaScript, Python, and, of course, HTML/CSS. I have also dabbled in many more languages, and I'm always eager to learn!
+          I am Juvenal Ortega. I graduated with a Bachelor of Science in Computer Science from the 
+          University of California, Riverside with a 3.8 GPA. While I was there, I learned a ton 
+          about programming and developed a knack for problem solving. I also worked on many projects 
+          with tons of different tools and technologies. I am most familiar with C++, JavaScript, 
+          Python, and, of course, HTML/CSS. I have also dabbled in many more languages, and I'm always eager to learn!
         </p>
         <div class="headerLinks">
           <a href="https://github.com/jortega2">
@@ -37,109 +41,124 @@
       <h1 class='myWork'>My Projects</h1>
       <div class="cardContainer">
         <div class="projectCard shadow">
-          <img src="imgs/small.jpg" alt="picture of project" class="cardImg" />
+          <img src="imgs/shell.jpeg" alt="picture of project" class="cardImg" />
           <h2 class="cardHeader">RShell</h2>
           <div class="cardDescription">
-                A console terminal that executes simple shell commands with connector support.
-                Created utilizing shunting yard algorithm and system calls. 
+                A shell emulator that executes simple shell commands with connector support.
+                Created utilizing the shunting yard algorithm and system calls. 
           </div>
           <div class="cardLinks">
-            <button type='button' class = 'cardAction'> Github 
-              <img src="imgs/github.png" alt="github logo" class="icon"/>
-            </button>
-            <button type="button" class = 'cardAction invert'> Live Demo 
+            <a href="https://github.com/jortega2/rshell" class = "btnContainer">
+              <button type='button' class = 'cardAction'> Github
+                <img src="imgs/github.png" alt="github logo" class="icon"/>
+              </button>
+            </a>
+            <!-- <button type="button" class = 'cardAction invert'> Live Demo 
               <img src="imgs/open-invert.png" alt="open" class="icon" />
-            </button>
+            </button> -->
           </div>
           <div class="cardTech">C++&nbsp;&nbsp;&nbsp;&nbsp;Googletest&nbsp;&nbsp;&nbsp;&nbsp;Regex</div>
         </div>
         <div class="projectCard shadow">
-          <img src="imgs/small.jpg" alt="picture of project" class="cardImg" />
-          <h2 class="cardHeader">Weather App</h2>
+          <img src="imgs/breadboard.jpeg" alt="picture of project" class="cardImg" />
+          <h2 class="cardHeader">Reaction Time Game</h2>
           <div class="cardDescription">
-            Website that displays the current and a five day forecast 
-            for a user inputed location.
+            A game that measures reaction time using an atmega1284 microprocessor, AVR Studio 6, a breadboard, 
+            synchronous state machines, a joystick, and a Nokia 5110 LCD screen for output.
+          </div>
+          <div class="cardLinks">
+            <a href="https://github.com/jortega2/CS120B-Project" class="btnContainer">
+              <button type='button' class = 'cardAction'> Github
+                <img src="imgs/github.png" alt="github logo" class="icon"/>
+              </button>
+            </a>
+            <!-- <button type="button" class = 'cardAction invert'> Live Demo 
+              <img src="imgs/open-invert.png" alt="open" class="icon" />
+            </button> -->
+         </div>
+          <div class="cardTech">C</div>
+        </div>
+        <div class="projectCard shadow">
+          <img src="imgs/8puzzle.png" alt="picture of project" class="cardImg" />
+          <h2 class="cardHeader">8 puzzle solver</h2>
+          <div class="cardDescription">
+            A console program that takes the starting state of an 8-puzzle game and outputs a
+            sequence of moves that lead to a solved state.
+            The program can use Uniform Cost Search or A* Search to solve the puzzle.
+          </div>
+          <div class="cardLinks">
+            <a href="https://github.com/jortega2/8puzzle" class="btnContainer">
+              <button type='button' class = 'cardAction'> Github
+                <img src="imgs/github.png" alt="github logo" class="icon"/>
+              </button>
+            </a>
+            <!-- <button type="button" class = 'cardAction invert'> Live Demo 
+              <img src="imgs/open-invert.png" alt="open" class="icon" />
+            </button> -->
+          </div>
+          <div class="cardTech">C++</div>
+        </div>
+        <div class="projectCard shadow">
+          <img src="imgs/weather.webp" alt="picture of project" class="cardImg" />
+          <h2 class="cardHeader">Weather Webpage</h2>
+          <div class="cardDescription">
+            Web page that displays the current weather and a five-day forecast
+            for a user-inputted location.
             Project was created to practice using JavaScript promises.
           </div>
           <div class="cardLinks">
-            <button type='button' class = 'cardAction'> Github 
-              <img src="imgs/github.png" alt="github logo" class="icon"/>
-            </button>
-            <button type="button" class = 'cardAction invert'> Live Demo 
-              <img src="imgs/open-invert.png" alt="open" class="icon" />
-            </button>
+            <a href="https://github.com/jortega2/weatherApp/" class="btnContainer">
+              <button type='button' class = 'cardAction'> Github
+                <img src="imgs/github.png" alt="github logo" class="icon"/>
+              </button>
+            </a>
+            <a href="https://jortega2.github.io/weatherApp/" class="btnContainer">
+              <button type="button" class = 'cardAction invert'> Live Demo
+                <img src="imgs/open-invert.png" alt="open" class="icon" />
+              </button>
+            </a>
           </div>
-          <div class="cardTech">JavaScript&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;&nbsp;OpenWeatherMap API</div>
+          <div class="cardTech">JavaScript&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </div>
         <div class="projectCard shadow">
-          <img src="imgs/small.jpg" alt="picture of project" class="cardImg" />
+          <img src="imgs/todo.png" alt="picture of project" class="cardImg" />
           <h2 class="cardHeader">To Do List</h2>
           <div class="cardDescription">
-            A website that allows the user to create various amounts of to-do lists and assign tasks to them.
+            A webpage that allows the user to create various amounts of to-do lists and assign tasks to them.
           </div>
           <div class="cardLinks">
-            <button type='button' class = 'cardAction'> Github 
-              <img src="imgs/github.png" alt="github logo" class="icon"/>
-            </button>
-            <button type="button" class = 'cardAction invert'> Live Demo 
-              <img src="imgs/open-invert.png" alt="open" class="icon" />
-            </button>
+            <a href="https://github.com/jortega2/todoList" class="btnContainer">
+              <button type='button' class = 'cardAction'> Github
+                <img src="imgs/github.png" alt="github logo" class="icon"/>
+              </button>
+            </a>
+            <a href="https://jortega2.github.io/todoList/" class="btnContainer">
+              <button type="button" class = 'cardAction invert'> Live Demo
+                <img src="imgs/open-invert.png" alt="open" class="icon" />
+              </button>
+            </a>
           </div>
           <div class="cardTech">JavaScript&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;&nbsp;PubSub-js</div>
         </div>
         <div class="projectCard shadow">
-          <img src="imgs/small.jpg" alt="picture of project" class="cardImg" />
+          <img src="imgs/rest.png" alt="picture of project" class="cardImg" />
           <h2 class="cardHeader">Restuarant Page</h2>
           <div class="cardDescription">
-          A mock restaurant page inspired by the video game Fallout 4.
+          Dynamically rendered restaurant page inspired by the video game Fallout 4.
           </div>
           <div class="cardLinks">
-            <button type='button' class = 'cardAction'> Github 
-              <img src="imgs/github.png" alt="github logo" class="icon"/>
-            </button>
-            <button type="button" class = 'cardAction invert'> Live Demo 
-              <img src="imgs/open-invert.png" alt="open" class="icon" />
-            </button>
+            <a href="https://github.com/jortega2/restaurantPage" class = "btnContainer">
+              <button type='button' class = 'cardAction'> Github
+                <img src="imgs/github.png" alt="github logo" class="icon"/>
+              </button>
+            </a>
+            <a href="https://jortega2.github.io/restaurantPage/" class = "btnContainer">
+              <button type="button" class = 'cardAction invert'> Live Demo
+                <img src="imgs/open-invert.png" alt="open" class="icon" />
+              </button>
+            </a>
           </div>
           <div class="cardTech">JavaScript&nbsp;&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;&nbsp;CSS</div>
-        </div>
-        <div class="projectCard shadow">
-          <img src="imgs/small.jpg" alt="picture of project" class="cardImg" />
-          <h2 class="cardHeader">Reaction Time Game</h2>
-          <div class="cardDescription">
-            The game will display a directional arrow on an LCD screen and the player 
-            will have to match the direction with a joystick input. 
-            The game keeps track of player score and calculates average 
-            reaction time once the game ends. 
-          </div>
-          <div class="cardLinks">
-            <button type='button' class = 'cardAction'> Github 
-              <img src="imgs/github.png" alt="github logo" class="icon"/>
-            </button>
-            <button type="button" class = 'cardAction invert'> Live Demo 
-              <img src="imgs/open-invert.png" alt="open" class="icon" />
-            </button>
-          </div>
-          <div class="cardTech">C&nbsp;&nbsp;&nbsp;&nbsp;Atmega64 microcontroller</div>
-        </div>
-        <div class="projectCard shadow">
-          <img src="imgs/small.jpg" alt="picture of project" class="cardImg" />
-          <h2 class="cardHeader">8 puzzle solver</h2>
-          <div class="cardDescription">
-            Console program that takes a starting state of an 8puzzle game and outputs a 
-              sequence of moves that lead to a solved state.
-              To solve the puzzle, the program can use either of two algorithms:
-              Uniform Cost Search and A* search.
-          </div>
-          <div class="cardLinks">
-            <button type='button' class = 'cardAction'> Github 
-              <img src="imgs/github.png" alt="github logo" class="icon"/>
-            </button>
-            <button type="button" class = 'cardAction invert'> Live Demo 
-              <img src="imgs/open-invert.png" alt="open" class="icon" />
-            </button>
-          </div>
-          <div class="cardTech">C++&nbsp;&nbsp;&nbsp;&nbsp;Make</div>
         </div>
       </div>
     </main>

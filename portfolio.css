@@ -102,13 +102,13 @@ img.icon{
   border-radius: 15px;
   background-color: white;
   border-style: solid;
-  border-width: 1;
+  border-width: 1px;
   border-color: black;
   height: 475px;
 }
 
 img.cardImg {
-  height: 60%;
+  height: 250px;
   max-width: 100%;
   border-radius: 15px;
 }
@@ -119,12 +119,18 @@ img.cardImg {
 
 .cardDescription {
   margin: 0;
+  height: 83px;
 }
 
 .cardLinks {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+}
+
+.btnContainer {
+  flex-grow: 1;
+  display: flex;
 }
 
 .cardAction {
@@ -136,10 +142,6 @@ img.cardImg {
   align-items: center;
   justify-content: center;
   gap: 10px;
-}
-
-.cardAction:hover {
-  
 }
 
 .invert {
