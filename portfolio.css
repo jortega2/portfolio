@@ -20,6 +20,7 @@ header {
 .headerImg {
   height: 400px;
   width: 533px;
+  border-radius: 10px;
 }
 
 footer {
